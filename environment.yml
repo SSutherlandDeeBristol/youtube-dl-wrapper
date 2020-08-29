@@ -1,0 +1,6 @@
+name: youtube-dl-wrapper
+dependencies:
+  - python=3.6
+  - pip:
+    - youtube-dl
+    - mutagen
