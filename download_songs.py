@@ -12,7 +12,6 @@ parser = argparse.ArgumentParser(prog='download_songs',
 
 parser.add_argument('--url', required=True)
 
-# ffmpeg: https://ffmpeg.zeranoe.com/builds/
 # TODO: Use https://github.com/willmcgugan/rich to add progress bars.
 
 def hook(c):
@@ -75,7 +74,7 @@ for file in os.listdir(output_directory):
 
     title_groups = re.split('\s*[\(\[]\s*', song_title)
 
-    if len(title_groups) > 1 and all(x not in str.lower(title_groups[1]) for x in['remix','mix','club','edit', 'version']):
+    if len(title_groups) > 1 and all(x not in str.lower(title_groups[1]) for x in['remix','mix','club','edit','version']):
         song_title = title_groups[0]
 
     id3['title'] = song_title
