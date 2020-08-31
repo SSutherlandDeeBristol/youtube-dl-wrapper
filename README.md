@@ -34,9 +34,13 @@ Visit https://ffmpeg.org/download.html and follow the links to download the buil
     - Single click on `ffmpeg/bin` (`bin` for binaries, basically the actual executable files that will convert the video to audio. The Python interpreter will look for `ffmpeg/bin` in the `Path` to be able to carry out the conversion.)
     - Keep pressing `Okay` on each window until all windows are closed.
 
-## 3. Clone this repository or download as a zip and extract
+## 3. Download this repository
+
+Either clone or download as a zip and extract to a location of your choice.
 
 ## 4. Navigate to this project directory
+
+Navigate to wherever you extracted or cloned this repository:
 
 e.g. `cd C:\Users\Shared\Documents\Projects\youtube-dl-wrapper`
 
@@ -49,6 +53,8 @@ e.g. `cd C:\Users\Shared\Documents\Projects\youtube-dl-wrapper`
 ### 1. Open the Anaconda Prompt (Anaconda Powershell Prompt on Windows)
 
 ### 2. Navigate to this project directory
+
+Navigate to wherever you extracted or cloned this repository:
 
 e.g. `cd C:\Users\Shared\Documents\Projects\youtube-dl-wrapper`
 
