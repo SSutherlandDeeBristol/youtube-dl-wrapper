@@ -36,6 +36,14 @@ Visit https://ffmpeg.org/download.html and follow the links to download the buil
 
 ## 3. Clone this repository or download as a zip and extract
 
+## 4. Navigate to this project directory
+
+e.g. `cd C:\Users\Shared\Documents\Projects\youtube-dl-wrapper`
+
+## 5. Create the Conda environment
+
+`conda env create -f environment.yml`
+
 # Usage
 
 ### 1. Open the Anaconda Prompt (Anaconda Powershell Prompt on Windows)
@@ -43,10 +51,6 @@ Visit https://ffmpeg.org/download.html and follow the links to download the buil
 ### 2. Navigate to this project directory
 
 e.g. `cd C:\Users\Shared\Documents\Projects\youtube-dl-wrapper`
-
-### 3. Create the Conda environment
-
-`conda env create -f environment.yml`
 
 ### 4. Activate the Conda environment
 
