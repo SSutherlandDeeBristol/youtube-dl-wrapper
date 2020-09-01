@@ -7,7 +7,7 @@ from mutagen.easyid3 import EasyID3
 import youtube_dl
 
 parser = argparse.ArgumentParser(prog='download_songs', 
-    usage='Please provide a link to a song or playlist with the --input-url flag e.g. python download_songs.py --url https://www.youtube.com/watch?v=dQw4w9WgXcQ', 
+    usage='Please provide a link to a song or playlist with the --url flag e.g. python download_songs.py --url https://www.youtube.com/watch?v=dQw4w9WgXcQ', 
     description='This script will download a song and convert it to mp3! It is recommended that the songs are removed from the downloaded_songs/ directory after they have been downloaded to prevent reprocessing.')
 
 parser.add_argument('--url', required=True)
